@@ -16,4 +16,4 @@ apptainer run --nv allen.sif
 ```
 
 ## Notes
-- Tested on Nikhef's Stoomboot node wn-lot-008
+- Tested on Nikhef's Stoomboot node `wn-lot-008`

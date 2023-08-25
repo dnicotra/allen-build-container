@@ -20,5 +20,6 @@ To use the container on lxplus you can pull the pre-built default image and spaw
 ```
 singularity shell --nv -B /afs -B /eos -B /cvmfs library://dnicotra/allen/allen-build:v1
 ```
-## Notes
-- Tested on Nikhef's Stoomboot node `wn-lot-008`
+## Tested on
+- Nikhef's Stoomboot node `wn-lot-008` (CPU and CUDA)
+- lxplus-gpu (CUDA)

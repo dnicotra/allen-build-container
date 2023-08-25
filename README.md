@@ -15,11 +15,12 @@ apptainer build allen.sif allen.def
 apptainer run --nv allen.sif
 ```
 
-## Run pre-built on lxplus
-To use the container on lxplus you can pull the pre-built default image and spawn a shell
+## Pull from SylabCloud
+To use the container on lxplus you can pull the default image from the SylabCloud repository and spawn a shell.
 ```
 singularity shell --nv -B /afs -B /eos -B /cvmfs library://dnicotra/allen/allen-build:v1
 ```
 ## Tested on
 - Nikhef's Stoomboot node `wn-lot-008` (CPU and CUDA)
 - lxplus-gpu (CUDA)
+- lxplus (CPU)
